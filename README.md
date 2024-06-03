@@ -4,6 +4,9 @@ A GitHub CLI extension is any GitHub repository named `gh-*` that publishes a Re
 
 ## Go extensions
 
+> [!Note]
+> With the use of `actions/setup-go@v5` for Go extensions, **cache is enabled by default** as part of the [action's `v4` release](https://github.com/actions/setup-go/releases/tag/v4.0.0). The action won’t throw an error if the cache can’t be restored or saved. The action will throw a warning message but it won’t stop a build process. 
+
 Create a workflow file at `.github/workflows/release.yml`:
 
 ```yaml
