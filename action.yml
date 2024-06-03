@@ -27,7 +27,7 @@ runs:
   using: composite
   steps:
     # TODO: figure out how to avoid setting up Go for non-Go extensions
-    - uses: actions/setup-go@v3
+    - uses: actions/setup-go@v5
       with:
         # The default go version is managed here because actions/setup-go favors go-version over go-version-file,
         # requiring us to only pass it if no other inputs are provided.
