@@ -1,4 +1,4 @@
-name: "release extension"
+name: "release extension modified by sivchari"
 description: "Generate a release for a precompiled gh extension"
 inputs:
   build_script_override:
