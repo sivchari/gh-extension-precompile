@@ -2,8 +2,6 @@
 set -e
 
 platforms=(
-  android-amd64
-  android-arm64
   darwin-amd64
   darwin-arm64
   freebsd-386
